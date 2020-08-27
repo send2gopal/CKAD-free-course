@@ -38,6 +38,6 @@
       1. Run: minikube start --driver=virtualbox
       2. Run: minikube status
         <br/> Expected output
-        <br/> <img src="/img/minikubestatus.png" />
+        <br/> <img src="img/MinikubeStatus.png" />
 
      
