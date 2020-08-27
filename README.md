@@ -15,4 +15,22 @@
       <br/>sudo mv ./kubectl /usr/local/bin/kubectl
       4. Test to ensure the version you installed is up-to-date
         <br/> kubectl version --client
+  2. Install Minikube
+      ## Windows
+      1. Check if virtualization is supported.
+         <br/> run 'systeminfo' command in command prompt.
+         <br/>Below output should be shown.
+         <br><img src="" />
       
+      2. Click this <a href="https://github.com/kubernetes/minikube/releases/latest/download/minikube-installer.exe">link</a> to download minikube installer. And run the installer to install the minikube in windows machine.
+      3.Download and install VirtualBox from this <a href="https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-Win.exe"> link </a>.
+       ## MAC
+      1. Check if virtualization is supported.
+         <br/> sysctl -a | grep -E --color 'machdep.cpu.features|VMX'
+         <br/> If you see 'VMX' in the output, the VT-x feature is enabled in your machine.
+      2. Install it by downloading a stand-alone binary:.
+         <br/>curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64 \
+         <br/>&& chmod +x minikube
+      3. Download and install VirtualBox from this <a href="https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-OSX.dmg"> link </a>.
+
+     
