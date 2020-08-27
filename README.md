@@ -21,7 +21,7 @@
       1. Check if virtualization is supported.
          <br/> run 'systeminfo' command in command prompt.
          <br/>Below output should be shown.
-         <br><img src="HyperV-enabled.png" />
+         <br><img src="img/HyperV-enabled.png" />
       
       2. Click this <a href="https://github.com/kubernetes/minikube/releases/latest/download/minikube-installer.exe">link</a> to download minikube installer. And run the installer to install the minikube in windows machine.
       3.Download and install VirtualBox from this <a href="https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-Win.exe"> link </a>.
