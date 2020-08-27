@@ -1,6 +1,6 @@
 # CKAD-free-course
 ## Configure Minikube K8S environment 
-   1. Install and Set Up kubectl
+  # 1. Install and Set Up kubectl
       ## Windows
       1. Download from below location and add the kubectl.exe to PATH variable.<br/>
       https://storage.googleapis.com/kubernetes-release/release/v1.19.0/bin/windows/amd64/kubectl.exe
@@ -15,7 +15,7 @@
       <br/>sudo mv ./kubectl /usr/local/bin/kubectl
       4. Test to ensure the version you installed is up-to-date
         <br/> kubectl version --client
-  2. Install Minikube
+  # 2. Install Minikube
       ## Windows
       1. Check if virtualization is supported.
          <br/> run 'systeminfo' command in command prompt.
