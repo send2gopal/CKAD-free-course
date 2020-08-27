@@ -25,6 +25,7 @@
       
       2. Click this <a href="https://github.com/kubernetes/minikube/releases/latest/download/minikube-installer.exe">link</a> to download minikube installer. And run the installer to install the minikube in windows machine.
       3.Download and install VirtualBox from this <a href="https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-Win.exe"> link </a>.
+    
        ### MAC
       1. Check if virtualization is supported.
          <br/> sysctl -a | grep -E --color 'machdep.cpu.features|VMX'
@@ -33,5 +34,10 @@
          <br/>curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64 \
          <br/>&& chmod +x minikube
       3. Download and install VirtualBox from this <a href="https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-OSX.dmg"> link </a>.
+      ### For Both OS
+      1. Run: minikube start --driver=virtualbox
+      2. Run: minikube status
+        <br/> Expected output
+        <br/> <img src="/img/minikubestatus.png" />
 
      
