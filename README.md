@@ -36,7 +36,7 @@
       3. Download and install VirtualBox from this <a href="https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-OSX.dmg"> link </a>.
       ### For Both OS
       1. Run: minikube start --driver=virtualbox
-      2. Run: minikube status
+      2. Run: minikube status // to get the status
         <br/> Expected output
         <br/> <img src="img/MinikubeStatus.png" />
 
